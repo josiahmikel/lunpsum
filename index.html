@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>LUMPSUN DESIGNS</title>
-    
+
     <meta charset="UTF-8">
 		<meta name="description" content="Lumpsun (@lunpsum) Designs · Hi, I'm Lumpsun, I do designs, and this is my official website :) On here I have commission info and you can contact me and stuff!">
 		<meta name="keywords" content="Lunpsum, Lumpsun, Design, Graphic design, Web design, Album Covers, Friends With Bears Records">
@@ -11,9 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:title" content="LUMPSUN DESIGNS" />
 		<meta property="og:description" content="Lumpsun (@lunpsum) Designs · Hi, I'm Lumpsun, I do designs, and this is my official website :)" />
-    
+
     <!-- Hi meta viewers, y'all are cool :) -->
-    
+
     <style>
       @font-face {
         font-family: NeueMontreal;
@@ -24,37 +24,37 @@
         font-family: Kalice;
         src: url('fonts/Kalice-Italic.otf');
       }
-      
+
       ::selection {
         background: none;
         color: #138a19;
-	      
+
 	-webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #138a19;
       }
-      
+
       body {
         margin: 0;
         padding: 0;
-	      
+
 	height: 100%;
 	overflow: hidden;
-	      
+
         background: #FFF;
 
         font-size: 1em;
         font-family: NeueMontreal, helvetica;
 
         color: #11118f;
-	      
+
 	cursor: url(cursors/default.png) 25 15, auto;
       }
-	
+
 	p:hover {
         cursor: url(cursors/text.png) 25 15, text;
       }
-	    
-      #middle {
+
+      .middle {
         display: flex;
         height: 100%;
         justify-content: center;
@@ -63,8 +63,23 @@
 
       #container {
         margin: 0;
-        padding: 1em;
+        height: 20em;
+      }
+
+      #text {
+        float: left;
+        padding-right: 3em;
         text-align: center;
+      }
+
+      #mypicture {
+        float: right;
+      }
+
+      #mypicture img {
+        padding: 2px;
+        border: 2px solid #11118f;
+        height: 20em;
       }
 
       a {
@@ -90,8 +105,11 @@
     </style>
   </head>
   <body>
-    <div id="middle">
+
+    <div class="middle">
       <div id="container">
+      <div id="text">
+        <div class="middle">
 	      <p><span>@</span><br><br>
 	Hi I'm Lumpsun.<br><br>
       I do designs, I like designing things.<br><br>
@@ -101,7 +119,12 @@
       <a href="mailto:josiah@bowles.es">This is my email</a><br><br>
 	This is my Instagram: <a target="_blank" href="https://instagram.com/lunpsum">@lunpsum</a>.<br><br>
       Have a good day!</p>
+    </div>
       </div>
+      <div id="mypicture">
+        <img src="hi-im-lumpsun.jpg">
+      </div>
+    </div>
     </div>
   </body>
 </html>
