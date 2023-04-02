@@ -42,8 +42,14 @@
         font-family: NeueMontreal, helvetica;
 
         color: #11118f;
+	      
+	cursor: url(cursors/default.png) 25 15, auto;
       }
-
+	
+	p:hover {
+        cursor: url(cursors/text.png) 25 15, text;
+      }
+	    
       #middle {
         display: flex;
         height: 100%;
@@ -69,6 +75,7 @@
         color: #138a19;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #138a19;
+	cursor: url(cursors/pointer.png) 25 15, pointer;
       }
 
       span {
